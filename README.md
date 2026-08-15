@@ -33,6 +33,20 @@ Digital Twin Mapping: Two Boolean cloud variables are mapped directly to physica
 
 Event Handling: Real-time state synchronization is managed through asynchronous onVariableChange callback functions, ensuring low-latency updates between the web dashboard and virtual hardware.
 
+## 📸 Project Screenshots
+
+### 1. Circuit Simulation & Wiring Layout (Wokwi)
+*Virtual ESP32 setup utilizing standard I/O pins connected to visual LED indicators.*  
+![Wokwi Simulation](images/Microcontroller.png)
+
+### 2. Cloud Console & Device Management
+*Arduino IoT Cloud overview showing active Things and device connectivity status.*  
+![Arduino Cloud Homepage](images/adruino_HOMEPAGE_FILENAME.png)
+
+### 3. User-Defined Dashboard & Real-Time Control
+*Configured web widgets providing real-time remote switching for Zone A and Zone B.*  
+![Dashboard Widgets](images/dashboard_widget.png)
+
 🚀 How to Run the Simulation
 Open the project workspace in the Wokwi ESP32 Simulator.
 
