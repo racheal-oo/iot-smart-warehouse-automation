@@ -1,15 +1,15 @@
-# IoT Smart Warehouse Lighting Automation (Proof of Concept)
+IoT Smart Warehouse Lighting Automation (Proof of Concept)
 
 An end-to-end IoT architecture prototype designed to transition commercial warehouse lighting from a static hardware utility into a dynamic, software-defined, cloud-managed asset.
 
-## 📋 Project Overview
+📋 Project Overview
 Conventional warehouse lighting systems are typically hardware-dependent, leading to energy inefficiencies, a lack of real-time visibility, and scaling difficulties. This proof of concept demonstrates a cost-effective, scalable IoT architecture that leverages **Arduino IoT Cloud** and virtual **ESP32** hardware simulation to enable seamless remote, on-demand lighting control across multiple zones.
 
-## 🏢 Organizational Context & Scope
+🏢 Organizational Context & Scope
 * **Scenario:** A mid-sized commercial distribution warehouse managing 150,000 square feet of storage space across multiple vertical lighting grids (Zone A and Zone B).
 * **Target Impact:** Reducing unnecessary power consumption, providing real-time operational monitoring for facility managers, and driving ROI for executive stakeholders.
 
-## 🛠️ Tech Stack & Architecture
+🛠️ Tech Stack & Architecture
 * **Virtual Hardware Simulation:** Wokwi ESP32 Virtual Environment
 * **Cloud Platform & Dashboard:** Arduino IoT Cloud (Web Console Layer)
 * **Communication Protocol:** MQTT-based synchronization via Arduino IoT SDK
@@ -33,7 +33,7 @@ Digital Twin Mapping: Two Boolean cloud variables are mapped directly to physica
 
 Event Handling: Real-time state synchronization is managed through asynchronous onVariableChange callback functions, ensuring low-latency updates between the web dashboard and virtual hardware.
 
-## 📸 Project Screenshots
+📸 Project Screenshots
 
 ### 1. Circuit Simulation & Wiring Layout (Wokwi)
 *Virtual ESP32 setup utilizing standard I/O pins connected to visual LED indicators.*  
@@ -41,11 +41,11 @@ Event Handling: Real-time state synchronization is managed through asynchronous 
 
 ### 2. Cloud Console & Device Management
 *Arduino IoT Cloud overview showing active Things and device connectivity status.*  
-![Arduino Cloud Homepage](images/adruino_HOMEPAGE_FILENAME.png)
+![Arduino Cloud Homepage](images/adruino%20iot%20cloud%20homepage.png)
 
 ### 3. User-Defined Dashboard & Real-Time Control
 *Configured web widgets providing real-time remote switching for Zone A and Zone B.*  
-![Dashboard Widgets](images/dashboard_widget.png)
+![Dashboard Widgets](images/dashboard%20widget.png)
 
 🚀 How to Run the Simulation
 Open the project workspace in the Wokwi ESP32 Simulator.
